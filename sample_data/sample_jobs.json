@@ -1,0 +1,98 @@
+[
+  {
+    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_business_name": "Rose Petal Bridal Boutique",
+    "entrepreneur_locality": "Kochi",
+    "title": "Bridal Blouse Embroidery Specialist Needed",
+    "description": "Looking for a skilled woman experienced in hand embroidery and zardozi work for bridal blouses and lehengas. Must be comfortable with intricate, detailed handwork on delicate fabric for the upcoming wedding season.",
+    "required_skills_text": "embroidery,zardozi,bridal wear",
+    "experience_required": 5,
+    "locality": "Kochi",
+    "availability": "weekdays,evenings",
+    "work_type": "part-time"
+  },
+  {
+    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_business_name": "Rose Petal Bridal Boutique",
+    "entrepreneur_locality": "Kochi",
+    "title": "Custom Salwar Suit Stitching Help",
+    "description": "Need a tailor to help stitch salwar suits and blouses for regular walk-in customers, basic alterations and hemming included. Great opportunity for someone building experience in tailoring.",
+    "required_skills_text": "tailoring,alterations",
+    "experience_required": 1,
+    "locality": "Ernakulam",
+    "availability": "weekends,flexible",
+    "work_type": "short-term"
+  },
+  {
+    "entrepreneur_email": "cakehouse.owner@example.com",
+    "entrepreneur_business_name": "Sweet Nest Home Bakery",
+    "entrepreneur_locality": "Kochi",
+    "title": "Themed Birthday Cake Decorator",
+    "description": "Home bakery seeking someone skilled in cake decoration for custom themed birthday and celebration cakes, available on weekends during the festive season.",
+    "required_skills_text": "baking,cake decoration",
+    "experience_required": 2,
+    "locality": "Kochi",
+    "availability": "weekends,flexible",
+    "work_type": "seasonal"
+  },
+  {
+    "entrepreneur_email": "cateringco.owner@example.com",
+    "entrepreneur_business_name": "Amma's Kitchen Catering",
+    "entrepreneur_locality": "Tripunithura",
+    "title": "South Indian Catering Help for Weekend Events",
+    "description": "We cater traditional South Indian meals for small family functions and need an experienced cook comfortable preparing food in bulk for weekend events.",
+    "required_skills_text": "cooking,catering,south indian cuisine",
+    "experience_required": 3,
+    "locality": "Tripunithura",
+    "availability": "weekends,evenings",
+    "work_type": "seasonal"
+  },
+  {
+    "entrepreneur_email": "learningcorner.owner@example.com",
+    "entrepreneur_business_name": "Learning Corner Home Tuitions",
+    "entrepreneur_locality": "Kochi",
+    "title": "After-School Math Tutor for Middle Schoolers",
+    "description": "Seeking a patient tutor to teach mathematics to middle-school children after school hours, following the regular school curriculum.",
+    "required_skills_text": "tutoring,mathematics,school curriculum",
+    "experience_required": 2,
+    "locality": "Kochi",
+    "availability": "weekdays,evenings",
+    "work_type": "part-time"
+  },
+  {
+    "entrepreneur_email": "craftstudio.owner@example.com",
+    "entrepreneur_business_name": "Little Craft Studio",
+    "entrepreneur_locality": "Koramangala",
+    "title": "Handmade Resin Jewelry Collaborator",
+    "description": "Small craft studio looking to collaborate with someone experienced in handmade resin jewelry and decor for an upcoming bulk order of gift items.",
+    "required_skills_text": "crafts,handmade jewelry,resin art",
+    "experience_required": 1,
+    "locality": "Koramangala",
+    "availability": "flexible",
+    "work_type": "short-term"
+  },
+  {
+    "entrepreneur_email": "weddingplanner.owner@example.com",
+    "entrepreneur_business_name": "Blush Bridal Events",
+    "entrepreneur_locality": "HSR Layout",
+    "title": "Bridal Mehendi and Makeup Artist for Wedding Season",
+    "description": "Event planning business seeking a freelance mehendi and bridal makeup artist for multiple upcoming weddings this season, must be able to travel locally.",
+    "required_skills_text": "beauty and personal care,mehendi,makeup",
+    "experience_required": 3,
+    "locality": "HSR Layout",
+    "availability": "weekends,flexible",
+    "work_type": "seasonal"
+  },
+  {
+    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_business_name": "Rose Petal Bridal Boutique",
+    "entrepreneur_locality": "Kochi",
+    "title": "Bridal Wear Designer and Stitching Partner",
+    "description": "We are expanding our bridal wear line and need a designer-tailor who can both design and stitch custom bridal and party wear with fine embroidery finishing touches.",
+    "required_skills_text": "tailoring,fashion design,bridal wear",
+    "experience_required": 6,
+    "locality": "Ernakulam",
+    "availability": "weekdays,weekends",
+    "work_type": "part-time"
+  }
+]

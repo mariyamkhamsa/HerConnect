@@ -1,0 +1,122 @@
+[
+  {
+    "email": "meera.tailor@example.com",
+    "full_name": "Meera Nair",
+    "structured_skills": "tailoring,embroidery,bridal wear",
+    "about_description": "I have been stitching salwar suits and blouses from home for 8 years, and I specialize in hand embroidery and bridal wear alterations. I can take custom orders and work with delicate fabrics.",
+    "experience_years": 8,
+    "locality": "Kochi",
+    "availability": "weekdays,mornings",
+    "work_type": "part-time"
+  },
+  {
+    "email": "anjali.stitch@example.com",
+    "full_name": "Anjali Pillai",
+    "structured_skills": "tailoring,alterations",
+    "about_description": "I run a small tailoring setup and do quick alterations, hemming, and simple stitching for daily wear. New to bridal work but eager to learn.",
+    "experience_years": 2,
+    "locality": "Ernakulam",
+    "availability": "weekends,flexible",
+    "work_type": "short-term"
+  },
+  {
+    "email": "fathima.embroidery@example.com",
+    "full_name": "Fathima Beevi",
+    "structured_skills": "embroidery,zardozi,bridal wear",
+    "about_description": "Skilled in zardozi and hand embroidery for wedding lehengas and bridal blouses. I have worked with several boutique designers on intricate bridal pieces.",
+    "experience_years": 10,
+    "locality": "Kakkanad",
+    "availability": "weekdays,evenings",
+    "work_type": "part-time"
+  },
+  {
+    "email": "sunitha.baker@example.com",
+    "full_name": "Sunitha Menon",
+    "structured_skills": "baking,cake decoration",
+    "about_description": "I bake custom celebration cakes and cupcakes from my home kitchen, and I love designing themed cakes for birthdays and weddings.",
+    "experience_years": 5,
+    "locality": "Kochi",
+    "availability": "weekends,flexible",
+    "work_type": "seasonal"
+  },
+  {
+    "email": "priya.chef@example.com",
+    "full_name": "Priya Varma",
+    "structured_skills": "cooking,catering,south indian cuisine",
+    "about_description": "Experienced home cook who caters small events, specializing in traditional South Indian meals and snacks. Comfortable handling bulk orders for parties.",
+    "experience_years": 6,
+    "locality": "Tripunithura",
+    "availability": "weekends,evenings",
+    "work_type": "seasonal"
+  },
+  {
+    "email": "divya.tutor@example.com",
+    "full_name": "Divya Krishnan",
+    "structured_skills": "tutoring,mathematics,school curriculum",
+    "about_description": "I tutor school children in mathematics and science after my own household work. Patient with beginners and comfortable teaching up to grade 10 level.",
+    "experience_years": 4,
+    "locality": "Kochi",
+    "availability": "weekdays,evenings",
+    "work_type": "part-time"
+  },
+  {
+    "email": "lakshmi.crafts@example.com",
+    "full_name": "Lakshmi Iyer",
+    "structured_skills": "crafts,handmade jewelry,resin art",
+    "about_description": "I make handmade resin jewelry and craft decor items at home, and I am looking for small collaboration or bulk order work with local businesses.",
+    "experience_years": 3,
+    "locality": "Koramangala",
+    "availability": "flexible",
+    "work_type": "short-term"
+  },
+  {
+    "email": "geetha.beauty@example.com",
+    "full_name": "Geetha Suresh",
+    "structured_skills": "beauty and personal care,mehendi,makeup",
+    "about_description": "Freelance mehendi and bridal makeup artist, available for weddings and small events. I bring my own kit and can travel locally.",
+    "experience_years": 7,
+    "locality": "HSR Layout",
+    "availability": "weekends,flexible",
+    "work_type": "seasonal"
+  },
+  {
+    "email": "reshma.newtailor@example.com",
+    "full_name": "Reshma Thomas",
+    "structured_skills": "tailoring",
+    "about_description": "I recently completed a tailoring course and am just starting out. I enjoy stitching simple kids' clothes and basic blouses and want to build more experience.",
+    "experience_years": 0.5,
+    "locality": "Kochi",
+    "availability": "weekdays,mornings",
+    "work_type": "part-time"
+  },
+  {
+    "email": "kavya.designer@example.com",
+    "full_name": "Kavya Ramesh",
+    "structured_skills": "tailoring,fashion design,bridal wear",
+    "about_description": "Trained fashion designer who now works independently designing and stitching custom bridal and party wear, including detailed embroidery finishing.",
+    "experience_years": 9,
+    "locality": "Ernakulam",
+    "availability": "weekdays,weekends",
+    "work_type": "part-time"
+  },
+  {
+    "email": "nithya.catering@example.com",
+    "full_name": "Nithya Pillai",
+    "structured_skills": "catering,baking,event food",
+    "about_description": "I handle small home-catering orders including snacks, cakes, and festive sweets, and I am comfortable planning menus for family functions.",
+    "experience_years": 4,
+    "locality": "Kakkanad",
+    "availability": "weekends,flexible",
+    "work_type": "seasonal"
+  },
+  {
+    "email": "asha.crafttutor@example.com",
+    "full_name": "Asha Balakrishnan",
+    "structured_skills": "crafts,tutoring,art classes",
+    "about_description": "I teach basic art and craft classes to children and also take orders for handmade greeting cards and gift wrapping.",
+    "experience_years": 3,
+    "locality": "BTM Layout",
+    "availability": "weekdays,evenings",
+    "work_type": "short-term"
+  }
+]
