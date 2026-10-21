@@ -1,6 +1,6 @@
 [
   {
-    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_email": "rosepetal@gmail.com",
     "entrepreneur_business_name": "Rose Petal Bridal Boutique",
     "entrepreneur_locality": "Kochi",
     "title": "Bridal Blouse Embroidery Specialist Needed",
@@ -9,10 +9,11 @@
     "experience_required": 5,
     "locality": "Kochi",
     "availability": "weekdays,evenings",
-    "work_type": "part-time"
+    "work_type": "part-time",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=47"
   },
   {
-    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_email": "rosepetal@gmail.com",
     "entrepreneur_business_name": "Rose Petal Bridal Boutique",
     "entrepreneur_locality": "Kochi",
     "title": "Custom Salwar Suit Stitching Help",
@@ -21,10 +22,11 @@
     "experience_required": 1,
     "locality": "Ernakulam",
     "availability": "weekends,flexible",
-    "work_type": "short-term"
+    "work_type": "short-term",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=47"
   },
   {
-    "entrepreneur_email": "cakehouse.owner@example.com",
+    "entrepreneur_email": "sweetnest@gmail.com",
     "entrepreneur_business_name": "Sweet Nest Home Bakery",
     "entrepreneur_locality": "Kochi",
     "title": "Themed Birthday Cake Decorator",
@@ -33,10 +35,11 @@
     "experience_required": 2,
     "locality": "Kochi",
     "availability": "weekends,flexible",
-    "work_type": "seasonal"
+    "work_type": "seasonal",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=44"
   },
   {
-    "entrepreneur_email": "cateringco.owner@example.com",
+    "entrepreneur_email": "ammaskitchen@gmail.com",
     "entrepreneur_business_name": "Amma's Kitchen Catering",
     "entrepreneur_locality": "Tripunithura",
     "title": "South Indian Catering Help for Weekend Events",
@@ -45,10 +48,11 @@
     "experience_required": 3,
     "locality": "Tripunithura",
     "availability": "weekends,evenings",
-    "work_type": "seasonal"
+    "work_type": "seasonal",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=45"
   },
   {
-    "entrepreneur_email": "learningcorner.owner@example.com",
+    "entrepreneur_email": "learningcorner@gmail.com",
     "entrepreneur_business_name": "Learning Corner Home Tuitions",
     "entrepreneur_locality": "Kochi",
     "title": "After-School Math Tutor for Middle Schoolers",
@@ -57,10 +61,11 @@
     "experience_required": 2,
     "locality": "Kochi",
     "availability": "weekdays,evenings",
-    "work_type": "part-time"
+    "work_type": "part-time",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=49"
   },
   {
-    "entrepreneur_email": "craftstudio.owner@example.com",
+    "entrepreneur_email": "craftstudio@gmail.com",
     "entrepreneur_business_name": "Little Craft Studio",
     "entrepreneur_locality": "Koramangala",
     "title": "Handmade Resin Jewelry Collaborator",
@@ -69,10 +74,11 @@
     "experience_required": 1,
     "locality": "Koramangala",
     "availability": "flexible",
-    "work_type": "short-term"
+    "work_type": "short-term",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=46"
   },
   {
-    "entrepreneur_email": "weddingplanner.owner@example.com",
+    "entrepreneur_email": "blushbridal@gmail.com",
     "entrepreneur_business_name": "Blush Bridal Events",
     "entrepreneur_locality": "HSR Layout",
     "title": "Bridal Mehendi and Makeup Artist for Wedding Season",
@@ -81,10 +87,11 @@
     "experience_required": 3,
     "locality": "HSR Layout",
     "availability": "weekends,flexible",
-    "work_type": "seasonal"
+    "work_type": "seasonal",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=48"
   },
   {
-    "entrepreneur_email": "boutique.owner@example.com",
+    "entrepreneur_email": "rosepetal@gmail.com",
     "entrepreneur_business_name": "Rose Petal Bridal Boutique",
     "entrepreneur_locality": "Kochi",
     "title": "Bridal Wear Designer and Stitching Partner",
@@ -93,6 +100,7 @@
     "experience_required": 6,
     "locality": "Ernakulam",
     "availability": "weekdays,weekends",
-    "work_type": "part-time"
+    "work_type": "part-time",
+    "entrepreneur_profile_photo_url": "https://i.pravatar.cc/300?img=47"
   }
 ]

@@ -1,0 +1,479 @@
+{
+  "_note": "Display-only profile enrichment for the demo accounts. Applied by backend/seed_profile_extras.py. Gallery image URLs are placeholder photos (picsum.photos) - replace with real images any time.",
+  "workers": {
+    "meera@gmail.com": {
+      "services_offered": "Custom salwar suit stitching, Hand embroidery, Bridal blouse alterations, Fabric consultation",
+      "languages": "Malayalam, English, Hindi",
+      "professional_intro": "I am a home-based tailor from Kochi with eight years of experience in salwar suits, blouses and delicate hand embroidery. Customers come to me for neat finishing and for alterations on bridal pieces, and I enjoy helping a client choose the right fabric and fit for her occasion.",
+      "certifications": [
+        {
+          "title": "Advanced Tailoring & Garment Construction",
+          "issuer": "Kochi Women's Skill Academy",
+          "year": 2017
+        },
+        {
+          "title": "Hand Embroidery Techniques Workshop",
+          "issuer": "Heritage Needlework Guild",
+          "year": 2019
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Embroidered bridal blouse",
+          "description": "Hand-embroidered silk blouse with a floral neckline, finished with a hand-stitched lining.",
+          "image_url": "https://picsum.photos/seed/herconnect-meera-1/640/480"
+        },
+        {
+          "title": "Silk salwar suit set",
+          "description": "Custom-fitted salwar suit in pure silk with piping detail, completed in five days.",
+          "image_url": "https://picsum.photos/seed/herconnect-meera-2/640/480"
+        },
+        {
+          "title": "Bridal lehenga alteration",
+          "description": "Re-fitted and re-hemmed a wedding lehenga while keeping the original zari border intact.",
+          "image_url": "https://picsum.photos/seed/herconnect-meera-3/640/480"
+        }
+      ]
+    },
+    "anjali@gmail.com": {
+      "services_offered": "Quick alterations, Hemming and taking in, Daily-wear stitching, Zip and lining repair",
+      "languages": "Malayalam, English",
+      "professional_intro": "I run a small tailoring setup from home in Ernakulam and specialise in fast, reliable alterations and everyday stitching. I am steadily building my skills in festive and bridal wear and always aim to deliver on the date I promise.",
+      "certifications": [
+        {
+          "title": "Basic Tailoring Certificate",
+          "issuer": "Ernakulam Vocational Training Centre",
+          "year": 2022
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Kurti with princess cut",
+          "description": "Daily-wear cotton kurti stitched with a clean princess-cut fit.",
+          "image_url": "https://picsum.photos/seed/herconnect-anjali-1/640/480"
+        },
+        {
+          "title": "School uniform alterations",
+          "description": "Bulk hemming and resizing of school uniforms for a local family.",
+          "image_url": "https://picsum.photos/seed/herconnect-anjali-2/640/480"
+        }
+      ]
+    },
+    "fathima@gmail.com": {
+      "services_offered": "Zardozi embroidery, Bridal lehenga embroidery, Aari and bead work, Blouse neckline designs",
+      "languages": "Malayalam, Hindi, English, Urdu",
+      "professional_intro": "For ten years I have worked on zardozi and hand embroidery for wedding lehengas and bridal blouses, mostly alongside boutique designers. I take pride in precise, even handwork and I am comfortable delivering large bridal orders to a deadline.",
+      "certifications": [
+        {
+          "title": "Zardozi & Aari Embroidery Master Course",
+          "issuer": "Lucknow Craft Institute",
+          "year": 2015
+        },
+        {
+          "title": "Bridal Embellishment Diploma",
+          "issuer": "Kochi Fashion Studio Academy",
+          "year": 2018
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Zardozi bridal lehenga",
+          "description": "Full zardozi work on a red bridal lehenga using gold thread, sequins and pearls.",
+          "image_url": "https://picsum.photos/seed/herconnect-fathima-1/640/480"
+        },
+        {
+          "title": "Aari work blouse",
+          "description": "Aari embroidery on a back-neck design, completed for a boutique client.",
+          "image_url": "https://picsum.photos/seed/herconnect-fathima-2/640/480"
+        },
+        {
+          "title": "Bead and stone border",
+          "description": "Dupatta border with hand-set stones and beads for a wedding trousseau.",
+          "image_url": "https://picsum.photos/seed/herconnect-fathima-3/640/480"
+        }
+      ]
+    },
+    "sunitha@gmail.com": {
+      "services_offered": "Custom celebration cakes, Themed birthday cakes, Cupcake boxes, Wedding cake tiers",
+      "languages": "Malayalam, English",
+      "professional_intro": "I bake custom cakes and cupcakes from my home kitchen and love turning a theme or a story into an edible design. I mostly take weekend orders for birthdays and weddings and always do a tasting-and-design chat before I start.",
+      "certifications": [
+        {
+          "title": "Professional Baking & Cake Decoration",
+          "issuer": "Sweet Craft Culinary School, Kochi",
+          "year": 2018
+        },
+        {
+          "title": "Food Safety & Hygiene Basics",
+          "issuer": "Kerala Food Safety Training Programme",
+          "year": 2021
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Jungle theme birthday cake",
+          "description": "Two-tier vanilla cake with hand-modelled fondant animals for a child's birthday.",
+          "image_url": "https://picsum.photos/seed/herconnect-sunitha-1/640/480"
+        },
+        {
+          "title": "Floral wedding cake",
+          "description": "Three-tier buttercream cake with sugar flowers for a small wedding.",
+          "image_url": "https://picsum.photos/seed/herconnect-sunitha-2/640/480"
+        },
+        {
+          "title": "Festive cupcake box",
+          "description": "Box of twelve decorated cupcakes made for a Onam family gathering.",
+          "image_url": "https://picsum.photos/seed/herconnect-sunitha-3/640/480"
+        }
+      ]
+    },
+    "priya@gmail.com": {
+      "services_offered": "South Indian meals for events, Bulk snack preparation, Festival feast menus, Sadya preparation",
+      "languages": "Malayalam, Tamil, English",
+      "professional_intro": "I am an experienced home cook who caters small family functions, specialising in traditional South Indian meals and snacks. I plan menus with the family, shop fresh ingredients and am used to cooking for 50 or more guests.",
+      "certifications": [
+        {
+          "title": "Food Handling & Kitchen Hygiene Certificate",
+          "issuer": "Tripunithura Skill Centre",
+          "year": 2020
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Traditional sadya spread",
+          "description": "Full vegetarian sadya served on banana leaf for a family function of 60 guests.",
+          "image_url": "https://picsum.photos/seed/herconnect-priya-1/640/480"
+        },
+        {
+          "title": "Evening snack platter",
+          "description": "Assorted pazham pori, unniyappam and banana chips prepared in bulk for a house-warming.",
+          "image_url": "https://picsum.photos/seed/herconnect-priya-2/640/480"
+        }
+      ]
+    },
+    "divya@gmail.com": {
+      "services_offered": "Maths tuition up to grade 10, Science tuition, Homework support, Exam preparation",
+      "languages": "Malayalam, English",
+      "professional_intro": "I tutor school children in mathematics and science and enjoy making difficult topics simple. I am patient with beginners, use everyday examples, and keep parents updated on progress every month.",
+      "certifications": [
+        {
+          "title": "B.Sc. Mathematics",
+          "issuer": "Mahatma Gandhi University",
+          "year": 2014
+        },
+        {
+          "title": "Teaching Methods for School Tutors",
+          "issuer": "Learning Bridge Education Trust",
+          "year": 2019
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Algebra worksheet set",
+          "description": "Step-by-step practice worksheets I designed for grade 8 algebra.",
+          "image_url": "https://picsum.photos/seed/herconnect-divya-1/640/480"
+        },
+        {
+          "title": "Exam revision charts",
+          "description": "Colourful formula charts used with students during board exam revision.",
+          "image_url": "https://picsum.photos/seed/herconnect-divya-2/640/480"
+        }
+      ]
+    },
+    "lakshmi@gmail.com": {
+      "services_offered": "Resin jewellery, Custom name pendants, Decor and coasters, Bulk gift orders",
+      "languages": "Malayalam, Tamil, English, Kannada",
+      "professional_intro": "I design and make handmade resin jewellery and decor at home, using pressed flowers and pastel pigments. I am looking to collaborate with local shops and studios on bulk gift orders and custom collections.",
+      "certifications": [
+        {
+          "title": "Resin Art Fundamentals",
+          "issuer": "Craft Collective Online Studio",
+          "year": 2021
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Pressed flower pendants",
+          "description": "Resin pendants with real pressed flowers, made in small batches.",
+          "image_url": "https://picsum.photos/seed/herconnect-lakshmi-1/640/480"
+        },
+        {
+          "title": "Marble effect coasters",
+          "description": "Set of four coasters with a pastel marble finish for a gifting order.",
+          "image_url": "https://picsum.photos/seed/herconnect-lakshmi-2/640/480"
+        },
+        {
+          "title": "Custom name keychains",
+          "description": "Personalised keychains prepared for a corporate gift hamper.",
+          "image_url": "https://picsum.photos/seed/herconnect-lakshmi-3/640/480"
+        }
+      ]
+    },
+    "geetha@gmail.com": {
+      "services_offered": "Bridal mehendi, Arabic and Indian mehendi designs, Bridal makeup, Party makeup",
+      "languages": "Malayalam, Kannada, Hindi, English",
+      "professional_intro": "I am a freelance mehendi and bridal makeup artist with seven years of experience at weddings and small events. I bring my own hygienic kit, travel locally and always do a trial session so the bride is happy with her look.",
+      "certifications": [
+        {
+          "title": "Professional Bridal Makeup Course",
+          "issuer": "Glow Academy of Beauty, Bengaluru",
+          "year": 2017
+        },
+        {
+          "title": "Advanced Mehendi Artistry",
+          "issuer": "Henna Arts Institute",
+          "year": 2019
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Bridal mehendi full hands",
+          "description": "Detailed bridal mehendi with peacock motifs, completed in four hours.",
+          "image_url": "https://picsum.photos/seed/herconnect-geetha-1/640/480"
+        },
+        {
+          "title": "Soft glam bridal makeup",
+          "description": "Natural-finish bridal makeup for a morning wedding.",
+          "image_url": "https://picsum.photos/seed/herconnect-geetha-2/640/480"
+        },
+        {
+          "title": "Arabic mehendi design",
+          "description": "Quick Arabic-style mehendi for a pre-wedding function.",
+          "image_url": "https://picsum.photos/seed/herconnect-geetha-3/640/480"
+        }
+      ]
+    },
+    "reshma@gmail.com": {
+      "services_offered": "Kids' clothing stitching, Basic blouses, Simple alterations",
+      "languages": "Malayalam, English",
+      "professional_intro": "I recently completed a tailoring course and am starting my career with simple children's clothes and basic blouses. I am hard-working, learn quickly and would love the chance to gain real project experience.",
+      "certifications": [
+        {
+          "title": "Certificate in Tailoring & Dress Making",
+          "issuer": "Kochi Women's Skill Academy",
+          "year": 2025
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Frock for a 5-year-old",
+          "description": "Cotton party frock with a gathered skirt, my first customer order.",
+          "image_url": "https://picsum.photos/seed/herconnect-reshma-1/640/480"
+        }
+      ]
+    },
+    "kavya@gmail.com": {
+      "services_offered": "Custom bridal wear design, Party wear stitching, Embroidery finishing, Pattern making",
+      "languages": "Malayalam, English, Hindi, Tamil",
+      "professional_intro": "A trained fashion designer, I now work independently on custom bridal and party wear, from sketch and pattern to final embroidery finishing. I enjoy partnering with boutiques that want a designer-tailor who can handle a piece end to end.",
+      "certifications": [
+        {
+          "title": "Diploma in Fashion Design",
+          "issuer": "National Institute of Design Studies, Bengaluru",
+          "year": 2016
+        },
+        {
+          "title": "Pattern Making & Draping",
+          "issuer": "Atelier Couture Workshop",
+          "year": 2018
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Ivory bridal gown",
+          "description": "Custom ivory bridal outfit designed, patterned and stitched in three weeks.",
+          "image_url": "https://picsum.photos/seed/herconnect-kavya-1/640/480"
+        },
+        {
+          "title": "Embroidered party saree blouse",
+          "description": "Designer blouse with thread embroidery and tassel detailing.",
+          "image_url": "https://picsum.photos/seed/herconnect-kavya-2/640/480"
+        },
+        {
+          "title": "Design sketches",
+          "description": "Concept sketches and fabric swatches prepared for a bridal client.",
+          "image_url": "https://picsum.photos/seed/herconnect-kavya-3/640/480"
+        }
+      ]
+    },
+    "nithya@gmail.com": {
+      "services_offered": "Home catering for functions, Festive sweets, Snack boxes, Cakes and menu planning",
+      "languages": "Malayalam, English",
+      "professional_intro": "I handle small home-catering orders including snacks, cakes and festive sweets, and I help families plan their function menus. I like clear communication, punctual delivery and food that tastes like it was made at home.",
+      "certifications": [
+        {
+          "title": "Food Safety & Hygiene Basics",
+          "issuer": "Kerala Food Safety Training Programme",
+          "year": 2022
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Festive sweets box",
+          "description": "Assorted laddu, halwa and murukku packed as Diwali gift boxes.",
+          "image_url": "https://picsum.photos/seed/herconnect-nithya-1/640/480"
+        },
+        {
+          "title": "Function snack trays",
+          "description": "Snack trays prepared for a 40-guest naming ceremony.",
+          "image_url": "https://picsum.photos/seed/herconnect-nithya-2/640/480"
+        }
+      ]
+    },
+    "asha@gmail.com": {
+      "services_offered": "Children's art classes, Craft workshops, Handmade greeting cards, Gift wrapping",
+      "languages": "Malayalam, English, Kannada",
+      "professional_intro": "I teach basic art and craft to children and also make handmade greeting cards and gift wraps to order. My classes are playful, hands-on and designed so every child goes home with something she is proud of.",
+      "certifications": [
+        {
+          "title": "Certificate in Fine Arts",
+          "issuer": "Bengaluru School of Visual Arts",
+          "year": 2018
+        },
+        {
+          "title": "Child-friendly Art Teaching",
+          "issuer": "Little Palette Education Trust",
+          "year": 2020
+        }
+      ],
+      "gallery": [
+        {
+          "title": "Paper quilling cards",
+          "description": "Handmade greeting cards with paper quilling for a festive season order.",
+          "image_url": "https://picsum.photos/seed/herconnect-asha-1/640/480"
+        },
+        {
+          "title": "Kids craft workshop",
+          "description": "Clay and paper craft session held for a group of 12 children.",
+          "image_url": "https://picsum.photos/seed/herconnect-asha-2/640/480"
+        }
+      ]
+    }
+  },
+  "entrepreneurs": {
+    "rosepetal@gmail.com": {
+      "business_intro": "Rose Petal Bridal Boutique is a Kochi boutique creating custom bridal blouses, lehengas and party wear. We work closely with skilled home-based women artisans for embroidery and stitching, and we value neat finishing and reliable timelines.",
+      "services_products": "Bridal blouses, Custom lehengas, Hand embroidery, Party wear, Alterations",
+      "years_in_business": 9,
+      "collaboration_needs": "Embroidery artists, Zardozi specialists, Tailors, Fashion designers",
+      "preferred_work_arrangements": "Part-time, Seasonal, Short-term, Flexible hours",
+      "gallery": [
+        {
+          "title": "Wedding season collection",
+          "description": "Our latest bridal blouse collection featuring hand embroidery and zari work.",
+          "image_url": "https://picsum.photos/seed/herconnect-rosepetal-1/640/480"
+        },
+        {
+          "title": "Boutique showroom",
+          "description": "Our Kochi showroom where clients choose fabrics and designs.",
+          "image_url": "https://picsum.photos/seed/herconnect-rosepetal-2/640/480"
+        },
+        {
+          "title": "Custom lehenga",
+          "description": "A custom lehenga created with our partner embroiderers for a Kochi wedding.",
+          "image_url": "https://picsum.photos/seed/herconnect-rosepetal-3/640/480"
+        }
+      ]
+    },
+    "sweetnest@gmail.com": {
+      "business_intro": "Sweet Nest is a home bakery in Kochi making custom birthday, wedding and festive cakes. We are a small team that takes pride in fresh ingredients and creative themed designs.",
+      "services_products": "Custom cakes, Themed birthday cakes, Cupcakes, Dessert boxes",
+      "years_in_business": 4,
+      "collaboration_needs": "Cake decorators, Bakers, Packing and delivery help",
+      "preferred_work_arrangements": "Seasonal, Weekends, Flexible hours",
+      "gallery": [
+        {
+          "title": "Unicorn birthday cake",
+          "description": "Pastel themed birthday cake with sugar flowers and a handmade topper.",
+          "image_url": "https://picsum.photos/seed/herconnect-sweetnest-1/640/480"
+        },
+        {
+          "title": "Festive dessert box",
+          "description": "Assorted desserts packed for the festival gifting season.",
+          "image_url": "https://picsum.photos/seed/herconnect-sweetnest-2/640/480"
+        }
+      ]
+    },
+    "ammaskitchen@gmail.com": {
+      "business_intro": "Amma's Kitchen Catering serves traditional South Indian meals for family functions and small events around Tripunithura. Our food is freshly cooked, home-style and made to order.",
+      "services_products": "Event catering, South Indian meals, Snack platters, Festival sadya",
+      "years_in_business": 6,
+      "collaboration_needs": "Experienced cooks, Kitchen assistants, Serving staff for events",
+      "preferred_work_arrangements": "Seasonal, Weekends, Evenings, On-site at events",
+      "gallery": [
+        {
+          "title": "Sadya for a house-warming",
+          "description": "Traditional sadya served for 80 guests at a house-warming.",
+          "image_url": "https://picsum.photos/seed/herconnect-ammas-1/640/480"
+        },
+        {
+          "title": "Snack platter",
+          "description": "Mixed evening snack platters prepared for a family function.",
+          "image_url": "https://picsum.photos/seed/herconnect-ammas-2/640/480"
+        }
+      ]
+    },
+    "learningcorner@gmail.com": {
+      "business_intro": "Learning Corner runs small after-school tuition groups in Kochi for primary and middle-school students. We focus on clear explanations, regular practice and honest feedback to parents.",
+      "services_products": "After-school tuition, Maths and science classes, Exam preparation, Homework clubs",
+      "years_in_business": 5,
+      "collaboration_needs": "Maths tutors, Science tutors, Activity-class teachers",
+      "preferred_work_arrangements": "Part-time, Weekday evenings, On-site",
+      "gallery": [
+        {
+          "title": "Our classroom",
+          "description": "A bright classroom set up for small groups of up to eight students.",
+          "image_url": "https://picsum.photos/seed/herconnect-learningcorner-1/640/480"
+        },
+        {
+          "title": "Activity day",
+          "description": "Students working on a hands-on science activity.",
+          "image_url": "https://picsum.photos/seed/herconnect-learningcorner-2/640/480"
+        }
+      ]
+    },
+    "craftstudio@gmail.com": {
+      "business_intro": "Little Craft Studio designs handmade gifts and decor for local shops and corporate gifting. We love collaborating with home-based makers on small-batch and bulk orders.",
+      "services_products": "Handmade gifts, Resin jewellery, Home decor, Corporate gift hampers",
+      "years_in_business": 3,
+      "collaboration_needs": "Resin artists, Jewellery makers, Packaging and gift-wrap artists",
+      "preferred_work_arrangements": "Short-term, Project-based, Remote from home, Flexible hours",
+      "gallery": [
+        {
+          "title": "Gift hamper range",
+          "description": "Curated handmade gift hampers created for a festive corporate order.",
+          "image_url": "https://picsum.photos/seed/herconnect-craftstudio-1/640/480"
+        },
+        {
+          "title": "Resin decor collection",
+          "description": "Small-batch resin decor and coasters made with partner artists.",
+          "image_url": "https://picsum.photos/seed/herconnect-craftstudio-2/640/480"
+        }
+      ]
+    },
+    "blushbridal@gmail.com": {
+      "business_intro": "Blush Bridal Events plans and styles weddings and pre-wedding functions around HSR Layout. We bring together makeup artists, mehendi artists and decorators for a smooth celebration.",
+      "services_products": "Wedding planning, Bridal styling, Mehendi functions, Event decor",
+      "years_in_business": 7,
+      "collaboration_needs": "Bridal makeup artists, Mehendi artists, Hair stylists",
+      "preferred_work_arrangements": "Seasonal, Weekends, On-site at venues, Travel within the city",
+      "gallery": [
+        {
+          "title": "Sangeet decor setup",
+          "description": "Floral and fairy-light decor designed for a sangeet evening.",
+          "image_url": "https://picsum.photos/seed/herconnect-blush-1/640/480"
+        },
+        {
+          "title": "Bridal styling station",
+          "description": "Our bridal styling corner with makeup and mehendi artists at work.",
+          "image_url": "https://picsum.photos/seed/herconnect-blush-2/640/480"
+        },
+        {
+          "title": "Mehendi function",
+          "description": "A relaxed mehendi function we organised for 40 guests.",
+          "image_url": "https://picsum.photos/seed/herconnect-blush-3/640/480"
+        }
+      ]
+    }
+  }
+}
