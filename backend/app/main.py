@@ -5,7 +5,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.database import Base, engine
-from app.routers import auth, workers, entrepreneurs, jobs, applications, recommendations, admin
+from app.routers import (
+    auth, workers, entrepreneurs, jobs, applications, recommendations, admin, categories,
+    invitations, notifications, connections, gallery,
+)
 
 # Creates any tables that don't exist yet. For a fresh setup, running schema.sql
 # directly is recommended (it also seeds default categories), but this keeps
@@ -29,9 +32,14 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(entrepreneurs.router)
 app.include_router(workers.router)
+app.include_router(gallery.router)
 app.include_router(jobs.router)
 app.include_router(applications.router)
+app.include_router(invitations.router)
+app.include_router(notifications.router)
+app.include_router(connections.router)
 app.include_router(recommendations.router)
+app.include_router(categories.router)
 app.include_router(admin.router)
 
 
