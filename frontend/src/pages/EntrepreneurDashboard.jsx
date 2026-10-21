@@ -9,6 +9,16 @@ export default function EntrepreneurDashboard() {
   const [profile, setProfile] = useState(null)
   const [loading, setLoading] = useState(true)
 
+  const toggleStatus = async (job) => {
+    const next = job.status === 'open' ? 'closed' : 'open'
+    try {
+      const res = await api.put(`/jobs/${job.id}/status`, { status: next })
+      setJobs((prev) => prev.map((j) => (j.id === job.id ? res.data : j)))
+    } catch (err) {
+      alert(err.response?.data?.detail || 'Could not update job status.')
+    }
+  }
+
   useEffect(() => {
     Promise.all([
       api.get('/jobs/mine').then((res) => setJobs(res.data)),
@@ -24,7 +34,6 @@ export default function EntrepreneurDashboard() {
           <p>{profile ? `Based in ${profile.locality}` : 'Set up your business profile to get started.'}</p>
         </div>
         <div className="header-actions">
-          <Link to="/entrepreneur/profile/edit"><Button variant="secondary">Edit business profile</Button></Link>
           <Link to="/entrepreneur/jobs/new"><Button>+ Post a job</Button></Link>
         </div>
       </div>
@@ -48,6 +57,7 @@ export default function EntrepreneurDashboard() {
             <div>
               <h3>{job.title}</h3>
               <div className="tag-list">
+                {job.category && <span className="badge badge-neutral">{job.category}</span>}
                 {job.required_skills_text.split(',').map((s) => (
                   <span key={s} className="badge badge-pink">{s.trim()}</span>
                 ))}
@@ -61,7 +71,7 @@ export default function EntrepreneurDashboard() {
           </p>
           <div className="card-actions">
             <Link to={`/entrepreneur/jobs/${job.id}/recommendations`}>
-              <Button variant="primary" size="sm">✨ AI-recommended workers</Button>
+              <Button variant="primary" size="sm">✨ Recommended workers</Button>
             </Link>
             <Link to={`/entrepreneur/jobs/${job.id}/applications`}>
               <Button variant="secondary" size="sm">View applications</Button>
@@ -69,6 +79,9 @@ export default function EntrepreneurDashboard() {
             <Link to={`/entrepreneur/jobs/${job.id}/edit`}>
               <Button variant="outline" size="sm">Edit</Button>
             </Link>
+            <Button variant="outline" size="sm" onClick={() => toggleStatus(job)}>
+              {job.status === 'open' ? 'Close job' : 'Reopen job'}
+            </Button>
           </div>
         </Card>
       ))}
