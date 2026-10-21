@@ -14,7 +14,7 @@ export default function MatchExplanation({ explanation, finalScore, semanticScor
     <div>
       <div className="match-header">
         <span className="score-pill">Match score: {Math.round(finalScore * 100)}%</span>
-        <span className="form-hint">semantic relevance: {Math.round(semanticScore * 100)}%</span>
+        <span className="form-hint">Skills fit: {Math.round(semanticScore * 100)}%</span>
       </div>
       <div className="match-grid">
         <div className="match-item">

@@ -6,7 +6,7 @@ import Button from '../components/Button.jsx'
 
 const EMPTY_JOB = {
   title: '', description: '', required_skills_text: '', experience_required: 0,
-  locality: '', availability: '', work_type: 'part-time',
+  locality: '', availability: '', work_type: 'part-time', category: '',
 }
 
 export default function JobPostingForm() {
@@ -16,10 +16,15 @@ export default function JobPostingForm() {
   const [form, setForm] = useState(EMPTY_JOB)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [categories, setCategories] = useState([])
+
+  useEffect(() => {
+    api.get('/categories').then((res) => setCategories(res.data)).catch(() => {})
+  }, [])
 
   useEffect(() => {
     if (isEdit) {
-      api.get(`/jobs/${jobId}`).then((res) => setForm(res.data))
+      api.get(`/jobs/${jobId}`).then((res) => setForm({ ...res.data, category: res.data.category || '' }))
     }
   }, [jobId])
 
@@ -33,10 +38,11 @@ export default function JobPostingForm() {
     setError('')
     setLoading(true)
     try {
+      const payload = { ...form, category: form.category || null }
       if (isEdit) {
-        await api.put(`/jobs/${jobId}`, form)
+        await api.put(`/jobs/${jobId}`, payload)
       } else {
-        await api.post('/jobs', form)
+        await api.post('/jobs', payload)
       }
       navigate('/entrepreneur')
     } catch (err) {
@@ -49,20 +55,20 @@ export default function JobPostingForm() {
   return (
     <div className="page-container narrow">
       <h2>{isEdit ? 'Edit Job' : 'Post a New Job'}</h2>
-      <p>Structured fields power both manual browsing and the AI recommendation pipeline.</p>
+      <p>Add clear details so workers can understand the opportunity and suitable matches can be found.</p>
       <Card>
         {error && <div className="error-banner">{error}</div>}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label className="form-label">Job title</label>
+            <label className="form-label">Job title <span className="required-asterisk" style={{ color: "#d14d72" }}>*</span></label>
             <input className="form-input" required value={form.title} onChange={handleChange('title')} placeholder="e.g. Bridal Blouse Embroidery Specialist" />
           </div>
           <div className="form-group">
-            <label className="form-label">Description</label>
-            <textarea className="form-textarea" required value={form.description} onChange={handleChange('description')} placeholder="Describe the work in your own words - this feeds the AI semantic matching." />
+            <label className="form-label">Description <span className="required-asterisk" style={{ color: "#d14d72" }}>*</span></label>
+            <textarea className="form-textarea" required value={form.description} onChange={handleChange('description')} placeholder="Describe the work, required skills and experience in your own words." />
           </div>
           <div className="form-group">
-            <label className="form-label">Required skills (comma-separated)</label>
+            <label className="form-label">Required skills (comma-separated) <span className="required-asterisk" style={{ color: "#d14d72" }}>*</span></label>
             <input className="form-input" required value={form.required_skills_text} onChange={handleChange('required_skills_text')} placeholder="e.g. embroidery, zardozi, bridal wear" />
           </div>
           <div className="form-row">
@@ -81,13 +87,20 @@ export default function JobPostingForm() {
           </div>
           <div className="form-row">
             <div className="form-group">
-              <label className="form-label">Locality</label>
+              <label className="form-label">Locality <span className="required-asterisk" style={{ color: "#d14d72" }}>*</span></label>
               <input className="form-input" required value={form.locality} onChange={handleChange('locality')} placeholder="e.g. Kochi" />
             </div>
             <div className="form-group">
-              <label className="form-label">Availability needed (comma-separated)</label>
+              <label className="form-label">Availability needed (comma-separated) <span className="required-asterisk" style={{ color: "#d14d72" }}>*</span></label>
               <input className="form-input" required value={form.availability} onChange={handleChange('availability')} placeholder="e.g. weekdays, evenings" />
             </div>
+          </div>
+          <div className="form-group">
+            <label className="form-label">Category</label>
+            <select className="form-select" value={form.category || ''} onChange={handleChange('category')}>
+              <option value="">No category</option>
+              {categories.map((c) => <option key={c.id} value={c.name}>{c.name}</option>)}
+            </select>
           </div>
           <Button type="submit" block disabled={loading}>{loading ? 'Saving...' : (isEdit ? 'Update job' : 'Post job')}</Button>
         </form>
