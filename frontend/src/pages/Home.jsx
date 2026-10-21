@@ -5,12 +5,16 @@ function HeroHandsIcon() {
   return (
     <div className="hero-icon" aria-hidden="true">
       <svg viewBox="0 0 100 100" role="img">
-        <path d="M39 62c-7-2-13-7-17-14-2-4 3-7 6-4l9 9V37c0-3 5-3 5 0v11l3-13c1-4 6-3 6 1l-1 12 4-10c1-4 6-2 5 2l-3 12 6-7c3-3 7 1 4 4l-8 11c-4 5-11 8-19 7Z" />
-        <path d="M61 62c7-2 13-7 17-14 2-4-3-7-6-4l-9 9V37c0-3-5-3-5 0v11l-3-13c-1-4-6-3-6 1l1 12-4-10c-1-4-6-2-5 2l3 12-6-7c-3-3-7 1-4 4l8 11c4 5 11 8 19 7Z" />
         <path
-          d="M50 17c-5-10-19-5-15 5 2 5 8 8 15 14 7-6 13-9 15-14 4-10-10-15-15-5Z"
+          d="M50 40c-9-9-19-4-15 5 2 5 9 9 15 14 6-5 13-9 15-14 4-9-6-14-15-5Z"
           className="hero-heart"
         />
+        <path d="M22 62c4 12 14 20 28 20s24-8 28-20" />
+        <path d="M22 62c-1-6 1-11 5-13 3 8 7 12 13 14" />
+        <path d="M78 62c1-6-1-11-5-13-3 8-7 12-13 14" />
+        <path d="M27 49c-1-3 0-6 3-7" />
+        <path d="M73 49c1-3 0-6-3-7" />
+        <path d="M33 58c3 5 8 8 17 8s14-3 17-8" />
       </svg>
     </div>
   )
@@ -62,62 +66,6 @@ function FeatureIcon({ type }) {
   )
 }
 
-function LeafDecoration({ side }) {
-  return (
-    <div
-      className={`leaf-decoration leaf-${side}`}
-      aria-hidden="true"
-    >
-      <svg viewBox="0 0 260 330">
-        <path
-          d="M32 310C78 245 86 164 196 55"
-          className="leaf-stem"
-        />
-
-        <path
-          d="M70 250C40 232 27 204 32 177c28 5 48 25 49 54"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M87 207c-26-22-31-49-20-73 28 10 43 31 37 58"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M107 170c-15-25-10-50 8-68 22 17 27 40 15 61"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M130 132c-7-24 4-44 25-56 14 21 9 42-8 58"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M103 223c29-10 53-5 71 15-25 19-51 16-71-2"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M124 183c28-12 53-8 72 11-24 20-50 18-72 1"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M150 143c25-11 47-6 62 12-21 17-43 16-62 2"
-          className="leaf-fill"
-        />
-
-        <path
-          d="M176 105c20-8 38-4 50 10-17 14-34 13-50 2"
-          className="leaf-fill"
-        />
-      </svg>
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <main className="reference-home">
@@ -145,6 +93,22 @@ export default function Home() {
         </div>
 
         <div
+          className="hero-dots hero-dots-low"
+          aria-hidden="true"
+        >
+          ••••
+          <br />
+          ••••
+        </div>
+
+        <div
+          className="hero-dots hero-dots-left"
+          aria-hidden="true"
+        >
+          ••
+        </div>
+
+        <div
           className="hero-sparkle sparkle-left"
           aria-hidden="true"
         >
@@ -158,8 +122,6 @@ export default function Home() {
           ✧
         </div>
 
-        <LeafDecoration side="left" />
-        <LeafDecoration side="right" />
 
         <div className="reference-hero-content">
 
@@ -211,11 +173,6 @@ export default function Home() {
           </div>
 
         </div>
-
-        <div
-          className="hero-wave"
-          aria-hidden="true"
-        />
 
       </section>
 
