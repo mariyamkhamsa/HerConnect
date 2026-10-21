@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext.jsx'
 import Button from '../components/Button.jsx'
+import { homePathFor } from '../utils/roles.js'
 
 export default function Login() {
   const { login } = useAuth()
@@ -17,7 +18,7 @@ export default function Login() {
     setLoading(true)
     try {
       const role = await login(email, password)
-      navigate(role === 'entrepreneur' ? '/entrepreneur' : '/worker')
+      navigate(homePathFor(role))
     } catch (err) {
       setError(err.response?.data?.detail || 'Login failed. Please check your credentials.')
     } finally {
@@ -38,7 +39,7 @@ export default function Login() {
             <label className="form-label">Email</label>
             <input
               className="form-input" type="email" required value={email}
-              onChange={(e) => setEmail(e.target.value)} placeholder="you@example.com"
+              onChange={(e) => setEmail(e.target.value)} placeholder="you@gmail.com"
             />
           </div>
           <div className="form-group">
@@ -50,6 +51,9 @@ export default function Login() {
           </div>
           <Button type="submit" block disabled={loading}>{loading ? 'Logging in...' : 'Log in'}</Button>
         </form>
+        <p className="auth-footer" style={{ marginBottom: 0 }}>
+          <Link to="/forgot-password">Forgot your password?</Link>
+        </p>
         <p className="auth-footer">
           New to HerConnect? <Link to="/register">Create an account</Link>
         </p>
