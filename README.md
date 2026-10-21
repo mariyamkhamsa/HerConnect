@@ -81,6 +81,16 @@ mysql -u root -p < schema.sql
 This creates the `herconnect` database and all tables, and seeds the
 `categories` table with a few defaults.
 
+**Upgrading an existing database** (created before the invitation / contact-sharing
+feature): do not re-run `schema.sql`. Instead run the migrations you have not applied yet,
+*before* starting the updated backend:
+
+```bash
+mysql -u root -p herconnect < migrations/002_connection_workflow.sql
+```
+
+(`001_prd_gap_fixes.sql` only if your database predates the `jobs.category` column.)
+
 ### 3.2 Configure environment variables
 
 ```bash
@@ -107,7 +117,7 @@ each of them using the same code path the live API uses. The first run will
 download the `all-MiniLM-L6-v2` model (~90MB), which may take a minute.
 
 All seeded accounts share the password: `Password123`
-(e.g. `meera.tailor@example.com` / `Password123`, `boutique.owner@example.com` / `Password123`).
+(e.g. `meera.tailor@gmail.com` / `Password123`, `boutique.owner@gmail.com` / `Password123`).
 
 ### 3.4 Run the backend
 
@@ -142,7 +152,7 @@ Open `http://localhost:5173`. The frontend expects the backend at
 ## 5. Demo walkthrough
 
 1. **Register** as an Entrepreneur (or log in as one of the seeded accounts,
-   e.g. `boutique.owner@example.com` / `Password123`).
+   e.g. `boutique.owner@gmail.com` / `Password123`).
 2. Set up (or review) the **business profile**.
 3. **Post a job** — or open one of the seeded jobs — e.g. "Bridal Blouse
    Embroidery Specialist Needed".
@@ -151,7 +161,7 @@ Open `http://localhost:5173`. The frontend expects the backend at
    - the semantic relevance score from the SBERT + Cross-Encoder pipeline,
    - a "Why this match?" breakdown (skill match / location / availability / experience).
 5. Compare against **manual browsing**: log in as a worker
-   (e.g. `meera.tailor@example.com` / `Password123`) and use **"Browse All
+   (e.g. `meera.tailor@gmail.com` / `Password123`) and use **"Browse All
    Jobs"** vs. **"✨ AI-Recommended Jobs"** to see the same "naive list vs.
    AI-ranked list" comparison from the other side.
 6. As a worker, **apply** to a job. As the entrepreneur, open **"View
@@ -159,6 +169,21 @@ Open `http://localhost:5173`. The frontend expects the backend at
 7. Try editing a worker profile's About/Description or a job's description —
    saving recomputes and stores a fresh embedding immediately (visible by
    re-running the recommendation view).
+
+---
+
+### 5.1 Connection workflow (invitations, applications, contacts)
+
+- **Entrepreneur → worker:** open a job's *AI-recommended workers* and press **Invite to apply**.
+  The worker gets an in-website notification (🔔 in the navbar), opens **Invitations**, and accepts or declines once.
+- **Worker → entrepreneur:** from *AI-recommended jobs* (or Browse Jobs) press **Apply**.
+  The entrepreneur is notified and accepts or rejects under *View applications*.
+- **Contacts:** after acceptance both people appear under **Connections**. Each side's account email and
+  optional profile phone number are revealed only if *that* side ticked the "share my contact details" box
+  (at invite / apply / accept time) or enabled it later on the Connections page. It can be switched off again.
+- Duplicate invitations/applications and double responses are rejected by the server (and by unique database keys).
+  An invitation is only allowed for an open job and a worker who passes the same structured eligibility filter
+  (Step 0) the recommendation pipeline uses; the SBERT + Cross-Encoder pipeline itself is unchanged.
 
 ---
 
