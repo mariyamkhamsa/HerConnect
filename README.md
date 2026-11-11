@@ -1,4 +1,4 @@
-# HerConnect — First Demo Build
+# HerConnect
 
 An AI-powered women collaboration platform connecting **women entrepreneurs**
 with **skilled women** seeking local, flexible work — with a genuinely
